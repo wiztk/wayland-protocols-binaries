@@ -1,0 +1,3 @@
+[submodule "third_party/wayland-protocols"]
+	path = third_party/wayland-protocols
+	url = git://anongit.freedesktop.org/wayland/wayland-protocols
