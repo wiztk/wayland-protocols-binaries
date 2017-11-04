@@ -51,3 +51,10 @@ add_dependencies(
         xdg-shell-unstable-v6
         xdg_shell_generate_protocol
 )
+
+install(TARGETS xdg-shell-unstable-v6
+        DESTINATION unstable/xdg-shell)
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${XDG_SHELL_V6_CLIENT_HEADER}"
+        DESTINATION unstable/xdg-shell)
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${XDG_SHELL_V6_SERVER_HEADER}"
+        DESTINATION unstable/xdg-shell)
