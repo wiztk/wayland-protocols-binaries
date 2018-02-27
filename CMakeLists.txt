@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(wayland-protocols-binaries VERSION 1.11)
+project(wayland-protocols-binaries VERSION 1.13)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/modules/")
 
